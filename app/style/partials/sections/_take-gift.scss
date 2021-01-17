@@ -1,0 +1,169 @@
+.take-gift {
+  position: relative;
+  margin: auto;
+  padding-top: 38px;
+  background-image: url('../img/garden-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 0% -44px;
+  // background-size: 100%;
+  text-align: center;
+}
+
+.take-gift__list {
+  max-width: 490px;
+  margin: auto;
+  padding: 25px 0 55px;
+  border: 8px solid #7ec242;
+  background-color: #fff;
+  color: #024b5b;
+  text-align: center;
+  font-size: 20px;
+
+  li {
+    position: relative;
+    font-size: 26px;
+    font-family: HelveticaNeueCyr-Roman, sans-serif;
+    &:not(:nth-of-type(1)) {
+      margin-top: 40px;
+    }
+    span {
+      color: #e31c4c;
+    }
+    img {
+      margin: 0px auto 7px;
+    }
+  }
+}
+
+.take-gift__btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 63px;
+  padding-bottom: 43px;
+  background-color: #fff;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    max-width: 360px;
+    background-color: #ed174b;
+  }
+
+  .apple-btn {
+    float: left;
+    border-radius: 200px;
+
+    img {
+
+    }
+  }
+
+  .google-btn {
+    float: right;
+    border-radius: 200px;
+
+    img {
+
+    }
+  }
+}
+
+.take-gift__about {
+  position: relative;
+  margin-top: 62px;
+  padding-bottom: 15px;
+  padding-top: 23px;
+  background-color: #7ec242;
+  border: 10px solid transparent;
+  border-width: 0 0 10px;
+  background-color: #7ec242;
+  background-color: hsla(0, 0%, 0%, 0);
+  background-image: -webkit-linear-gradient(#7ec242, #7ec242), -webkit-linear-gradient(top left, transparent 50.5%, #7ec242 50.5%), -webkit-linear-gradient(top right, transparent 50.5%, #7ec242 50.5%), -webkit-linear-gradient(bottom left, transparent 50.5%, #7ec242 50.5%), -webkit-linear-gradient(bottom right, transparent 50.5%, #7ec242 50.5%);
+  background-image: -moz-linear-gradient(#7ec242, #7ec242), -moz-linear-gradient(top left, transparent 50.5%, #7ec242 50.5%), -moz-linear-gradient(top right, transparent 50.5%, #7ec242 50.5%), -moz-linear-gradient(bottom left, transparent 50.5%, #7ec242 50.5%), -moz-linear-gradient(bottom right, transparent 50.5%, #7ec242 50.5%);
+  background-image: linear-gradient(#7ec242, #7ec242), linear-gradient(to bottom right, transparent 50.5%, #7ec242 50.5%), linear-gradient(to bottom left, transparent 50.5%, #7ec242 50.5%), linear-gradient(to top right, transparent 50.5%, #7ec242 50.5%), linear-gradient(to top left, transparent 50.5%, #7ec242 50.5%);
+  background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+  background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+  background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+  background-clip: padding-box, border-box, border-box, border-box, border-box;
+  background-origin: padding-box, border-box, border-box, border-box, border-box;
+
+  p {
+    max-width: 630px;
+    margin: auto;
+    font-size: 30px;
+    font-family: HelveticaNeueCyr-Roman, sans-serif;
+    word-wrap: break-word;
+    color: #fff;
+  }
+
+  .take-gift__bnt-doc {
+    display: block;
+    max-width: 262px;
+    height: 46px;
+    margin: 30px auto auto;
+    background-color: #2db8ca;
+    border-radius: 200px;
+    box-shadow: 1px 5px 0 #268dab;
+    font-size: 26px;
+    line-height: 46px;
+    font-family: HelveticaNeueCyr-Bold, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    transition: all 2s ease;
+
+    &:active,
+    &:hover {
+      box-shadow: inset 1px 5px 0 #268dab;
+    }
+  }
+}
+
+.take-gift__video {
+  height: 300px;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 734px) {
+  .take-gift__btn {
+    padding-top: 20px;
+    padding-bottom: 23px;
+    a {
+      &:nth-of-type(2){
+        margin-top: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 518px) {
+  .take-gift__list {
+    font-size: 16px;
+  }
+}
+
+.take-gift__about {
+  p {
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .take-gift__about {
+    margin-top: 35px;
+    p {
+      font-size: 16px;
+    }
+  }
+}
+@media screen and (max-width: 350px) {
+  .take-gift__list {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,36 @@
+@include border-box;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-pix {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.main-wrapper {
+  max-width: 768px;
+  margin: auto;
+  overflow: hidden;
+}
+.main-header {
+  position: relative;
+  padding-bottom: 60px;
+  background-color: #7ec242;
+}
+.main-bg {
+  margin: 0 auto;
+}
+.main-logo {
+  margin: auto;
+  z-index: 6;
+}
+@media screen and (max-width: 560px) {
+  .main-header {
+    padding-bottom: 20px;
+  }
+}

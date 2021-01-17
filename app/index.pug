@@ -1,0 +1,13 @@
+doctype html
+html(lang="ru")
+  include ./template/head.pug
+  body
+    .main-wrapper
+      include ./template/header.pug
+      include ./template/gift-descr.pug
+      include ./template/take-gift.pug
+      include ./template/contacts.pug
+      include ./template/footer.pug
+    script(src='js/app.js')
+    script
+      include js/partials/analytics.js
